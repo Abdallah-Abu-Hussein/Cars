@@ -4,17 +4,19 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Cars</title>
+ <link rel="stylesheet" href="Style.css">
+	<title>Cars Histroy </title>
 </head>
 
 <body>
+  
 	<header>
-		<h1>Cars histroy</h1>
+		<h1>Cars Histroy</h1>
 		<nav>
-
 			<ul>
-				<li><a href="https://www.tesla.com/modely">My favorite car </a></li>
-				<li><a href="https://en.wikipedia.org/wiki/History_of_the_automobile">More on cars History</a></li>
+				<li><a href="https://www.tesla.com/modely" style=" float:left; color :#F0FFFF;padding-left: 300px; font-size: 40px; font-family: Georgia, serif;">My favorite car           </a>
+				
+        <a href="https://en.wikipedia.org/wiki/History_of_the_automobile" style="color:#F0FFFF;float:left;;padding-left: 300px; font-size: 40px; font-family: Georgia, serif;">  More on cars History</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -26,8 +28,28 @@
 		</section>
 		<section>
 <div>
+  <style>
+* {
+  box-sizing: border-box;
+}
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Carl-Benz_coloriert.jpg/450px-Carl-Benz_coloriert.jpg" alt="tesla"width="200" height="200">
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+  
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Carl-Benz_coloriert.jpg/450px-Carl-Benz_coloriert.jpg" alt="tesla">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Stanley_Woggle-Bug.jpg" alt="" width="600" height="600" >
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/TModel_launch_Geelong.jpg/1280px-TModel_launch_Geelong.jpg" alt="" width="400" height="600">
 </div>
 
 <div>   
@@ -40,12 +62,13 @@
 
 
 </section>
-<script src="app.js"></script>
 </main>
 <footer>
   <p>&copy; Abdallah Abu Hussein</p>
   
 </footer>
+<script src="app.js"></script>
+
 </body>
 
 </html>

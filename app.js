@@ -15,6 +15,6 @@ document.write(
   "<div>" +"<h3>" + 'First car in history' + "</h3>"
  +"<img  src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Capture_d%E2%80%99%C3%A9cran_2016-10-14_%C3%A0_21.26.28.png/330px-Capture_d%E2%80%99%C3%A9cran_2016-10-14_%C3%A0_21.26.28.png />" + "</div>")
 }
-else{
+else if(intrested2 == 'n'){
  alert("sorry to waste your time")
 }
